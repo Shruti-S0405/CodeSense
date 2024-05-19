@@ -1,0 +1,16 @@
+{
+  "name": "code-sumerzirer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.13.3",
+    "wrangler": "^3.57.0"
+  }
+}
