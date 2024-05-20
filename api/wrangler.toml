@@ -1,2 +1,3 @@
 name = "code-sum-api"
 compatibility_date = "2023-12-01"
+node_compat = true
