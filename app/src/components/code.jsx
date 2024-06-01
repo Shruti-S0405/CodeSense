@@ -39,14 +39,14 @@ function CodeSnipet() {
     }
 
     return (
-        <>
-            <div>
+        <div className="box">
+            {/* <div>
                 <i>
                     Insert your code below:
                 </i>
-            </div>
-            <div>
-                <textarea
+            </div> */}
+            <div class="on-dark">
+                <textarea class="border-gradient border-gradient-purple"
                     id="code"
                     rows="10"
                     cols="50"
@@ -59,8 +59,8 @@ function CodeSnipet() {
                 >
                 </textarea>
             </div>
-            <div>
-                <button 
+            <div className='btn'>
+                <span 
                     onClick={
                         (event) => {
                             event.preventDefault()
@@ -73,10 +73,10 @@ function CodeSnipet() {
                         }
                     }
                 >
-                    Summarize
-                </button>
+                    Sense!
+                </span>
             </div>
-        </>
+        </div>
     )
 }
 
