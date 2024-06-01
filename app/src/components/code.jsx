@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import axios from 'axios'
+import Markdown from 'react-markdown'
 
 const sendCodeToAPI = async (code) => {
     try {
-        const response = await axios.post("", {
-            code
+        const response = await axios.post(import.meta.env.VITE_API_URL + "/smz", {
+            code,
         }, {})
-
         return response.data;
     }
     catch (error) {
@@ -20,8 +20,6 @@ function CodeSnipet() {
     const [isSummaryLoaded, setIsSummaryLoaded] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
 
-    useEffect(() => {})
-
     if(isLoading) {
         return (
             <p>
@@ -33,7 +31,9 @@ function CodeSnipet() {
     else if (isSummaryLoaded) {
         return (
             <p>
-                {summary}
+                <Markdown>
+                    {summary}
+                </Markdown>
             </p>
         )
     }

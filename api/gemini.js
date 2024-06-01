@@ -1,11 +1,11 @@
-export const summarize = async (code, lang, api_key) => {
+export const summarize = async (code, api_key) => {
   let reqdata = JSON.stringify({
     contents: [
       {
         parts: [
           {
             text:
-              "Can you help by explaining me about how the following " + lang + "code functions \n\n" +
+              "Can you help by explaining me about how the following code functions in short and gist manner  \n\n" +
               code,
           },
         ],

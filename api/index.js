@@ -16,9 +16,9 @@ app.use(cors({
 app.use(logger())
 
 app.post('/smz', async (c) => {
-    const { code, lang } = await c.req.json();
+    const { code } = await c.req.json();
 
-    const summary = await summarize(code, lang, c.env.GEMINI_API_KEY);
+    const summary = await summarize(code, c.env.GEMINI_API_KEY);
 
     return c.json({ summary });
 })
