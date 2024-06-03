@@ -1,17 +1,17 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "wrangler dev index.js",
-    "deploy": "wrangler deploy --minify index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "hono": "^4.3.8"
-  }
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "wrangler deploy --minify index.js",
+        "dev": "wrangler dev index.js"
+    },
+    "dependencies": {
+        "hono": "^4.3.8"
+    },
+    "keywords": []
 }

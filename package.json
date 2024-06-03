@@ -1,16 +1,20 @@
 {
-  "name": "code-sumerzirer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "turbo dev"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "turbo": "^1.13.3",
-    "wrangler": "^3.57.0"
-  }
+    "name": "code-sumerzirer",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "turbo dev",
+        "format": "prettier -w ."
+    },
+    "devDependencies": {
+        "@bravo68web/prettier-config": "^1.2.4",
+        "prettier": "^3.3.0",
+        "turbo": "^1.13.3",
+        "wrangler": "^3.57.0"
+    },
+    "keywords": [],
+    "prettier": "@bravo68web/prettier-config"
 }
