@@ -7,7 +7,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "turbo dev",
-        "format": "prettier -w ."
+        "format": "prettier -w .",
+        "deploy": "turbo deploy"
     },
     "devDependencies": {
         "@bravo68web/prettier-config": "^1.2.4",
