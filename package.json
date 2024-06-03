@@ -16,7 +16,8 @@
     "scripts": {
         "dev": "turbo dev",
         "format": "prettier -w .",
-        "deploy": "turbo deploy"
+        "deploy": "turbo deploy",
+        "build": "turbo build"
     },
     "devDependencies": {
         "@bravo68web/prettier-config": "^1.2.4",
