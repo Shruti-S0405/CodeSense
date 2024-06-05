@@ -6,7 +6,7 @@
 
 CodeSense is a *_full-stack project_* that gives Summary for the code that you provide.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Shruti-S0405/CodeSens)
+![GitHub last commit](https://img.shields.io/github/last-commit/Shruti-S0405/CodeSense)
 ![GitHub License](https://img.shields.io/github/license/Shruti-S0405/CodeSense)
 
 
